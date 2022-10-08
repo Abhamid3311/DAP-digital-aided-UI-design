@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
 import { BsX } from 'react-icons/bs';
-import { TooltipSearch, ToolTipText, ToolViewFooter } from '../../styled-components';
+import { BlueBorderLessBtn, TooltipSearch, ToolTipText, ToolViewFooter, WhiteBorderLessBtn } from '../../styled-components';
 import { ModalWindowContainer } from './ModalWindow.css';
 
 
@@ -12,7 +12,7 @@ const ModalWindow1 = () => {
             <ModalWindowContainer>
                 <TooltipSearch>
                     <p>Search</p>
-                    <BsX className='cross-icon' />
+                    <WhiteBorderLessBtn><BsX /></WhiteBorderLessBtn>
                 </TooltipSearch>
                 <ToolTipText>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's. Lorem Ipsum has been the industry's

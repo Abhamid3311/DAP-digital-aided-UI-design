@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiOutlineArrowRight } from 'react-icons/ai';
 import { BsX } from 'react-icons/bs';
-import {  ToolViewFooter2, WhiteButton, WhiteEditBtn } from '../../styled-components';
+import { ToolViewFooter2, WhiteBorderLessBtn, WhiteButton, WhiteEditBtn } from '../../styled-components';
 import { FeedBackContainer, FeedbackScale, ScaleBtn } from './Feedback.css';
 
 const Feedback1 = () => {
@@ -36,8 +36,8 @@ const Feedback1 = () => {
                 </div>
 
                 <ToolViewFooter2>
-                    <WhiteEditBtn>Skip</WhiteEditBtn>
-                    <WhiteButton><AiOutlineArrowRight /></WhiteButton>
+                    <WhiteBorderLessBtn><span>Skip</span></WhiteBorderLessBtn>
+                    <WhiteBorderLessBtn><AiOutlineArrowRight /></WhiteBorderLessBtn>
                 </ToolViewFooter2>
             </FeedBackContainer>
         </div>

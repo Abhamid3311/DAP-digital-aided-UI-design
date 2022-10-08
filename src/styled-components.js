@@ -121,7 +121,7 @@ color:#fefefe;
 `;
 
 export const ToolTipFooter2 = styled(ToolTipFooter)`
-background-color:#ffffff;
+background-color:#F9F9F9;
 color:black;
 `;
 
@@ -139,7 +139,7 @@ justify-content:space-between;
 `;
 
 export const ToolViewFooter2 = styled(ToolViewFooter)`
-background-color:#ffffff;
+background-color:#F9F9F9;
 color:black;
 `;
 
@@ -149,7 +149,7 @@ color:black;
 
 export const WhiteButton = styled.button`
 padding:10px 25px;
-background-color:#ffffff;
+background-color:#F9F9F9;
 color: #2C2C2C;
 border:1px solid #EBEBEB;
 border-radius:8px;
@@ -175,21 +175,30 @@ border:none;
     font-size:24px;
     padding:4px;
 }
+& span{
+    font-size:17px;
+    font-weight:700;
+}
+`;
+
+export const WhiteBorderLessBtn = styled(WhiteButton)`
+border:none;
+background-color:#F9F9F9;
+
+& span{
+    font-size:17px;
+    font-weight:700;
+}
 `;
 
 /* export const WhiteBorderLessBtn = styled(WhiteButton)`
 border:none;
-background-color:#F9F9F9;
-`; */
-
-export const WhiteBorderLessBtn = styled(WhiteButton)`
-border:none;
 background-color:#FEFEFF;
 `;
+ */
 export const WhiteBorderLessFlowBtn = styled(WhiteBorderLessBtn)`
 background-color:#FEFEFF;
 padding:2px 10px;
-
 &> svg{
     font-size:35px;
 }

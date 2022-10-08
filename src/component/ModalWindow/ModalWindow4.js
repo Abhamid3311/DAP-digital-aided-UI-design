@@ -1,16 +1,15 @@
 import React from 'react';
 import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
 import { BsX } from 'react-icons/bs';
-import styled from 'styled-components';
-import { TooltipSearch, ToolTipText, ToolViewFooter, ToolViewFooter2 } from '../../styled-components';
-import { ModalWindowContainer, ModalWindowContainer2 } from './ModalWindow.css';
+import { BlueBorderLessBtn, TooltipSearch, ToolTipText, ToolViewFooter2 } from '../../styled-components';
+import { ModalWindowContainer2 } from './ModalWindow.css';
 const ModalWindow4 = () => {
     return (
         <div style={{ marginTop: "50px" }}>
             <ModalWindowContainer2>
                 <TooltipSearch>
                     <p>Search</p>
-                    <BsX className='cross-icon' />
+                    <BlueBorderLessBtn><BsX /></BlueBorderLessBtn>
                 </TooltipSearch>
                 <ToolTipText>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's. Lorem Ipsum has been the industry's

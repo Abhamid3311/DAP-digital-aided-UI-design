@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsX } from 'react-icons/bs';
-import { BlueEditBtn, ToolViewFooter2, WhiteEditBtn } from '../../styled-components';
+import { BlueBorderLessBtn, BlueEditBtn, ToolViewFooter2, WhiteBorderLessBtn, WhiteEditBtn } from '../../styled-components';
 import { FeedBackContainer, FeedbackScale, ScaleBtn } from './Feedback.css';
 
 const Feedback2 = () => {
@@ -35,8 +35,8 @@ const Feedback2 = () => {
                 </div>
 
                 <ToolViewFooter2>
-                    <WhiteEditBtn>Skip</WhiteEditBtn>
-                    <BlueEditBtn>Submit</BlueEditBtn>
+                    <WhiteBorderLessBtn><span>Skip</span></WhiteBorderLessBtn>
+                    <BlueBorderLessBtn><span>Submit</span></BlueBorderLessBtn>
                 </ToolViewFooter2>
             </FeedBackContainer>
         </div>

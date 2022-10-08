@@ -15,34 +15,32 @@ import Feedback2 from './component/Feedback/Feedback2';
 import ToolTipCreated2 from './component/ToolTipCreated/ToolTipCreated2';
 import ToolTipCreated3 from './component/ToolTipCreated/ToolTipCreated3';
 import ToolTipView3 from './component/ToolTipView/ToolTipView3';
+import SignUp from './component/SignUp/SignUp';
 
 function App() {
   return (
     <div style={{ backgroundColor: "gray", padding: "20px" }}>
 
-      <ToolTipCreated1 />
+      {/* <ToolTipCreated1 />
       <ToolTipCreated2 />
       <ToolTipCreated3 />
       <ToolTipCreated4 />
-
       <ToolTipView1 />
       <ToolTipView2 />
       <ToolTipView3 />
       <ToolTipView4 />
 
-      {/* <ExistigFlows /> */}
-      
+      <ExistigFlows />
       <FlowEditor />
+      <SelfHelp /> */}
 
-      <SelfHelp />
-
-      <ModalWindow1 />
+      {/* <ModalWindow1 />
       <ModalWindow4 />
-
       <Feedback1 />
       <Feedback2 />
+      <Announcements /> */}
 
-      <Announcements />
+      <SignUp />
 
 
 
