@@ -30,6 +30,7 @@ const SelfHelpModal = () => {
                     </SelfSingleRowSearch>
                 </SingleFlowContainer>
 
+
                 <SingleFlowContainer>
                     <SelfSingleRow>
                         <RiFlowChart className='flow-icon' />
@@ -59,10 +60,6 @@ const SelfHelpModal = () => {
                     </SelfSingleRow>
                 </SingleFlowContainer>
                 
-
-                
-
-
             </SelfHelpModalContainer>
         </div>
     );

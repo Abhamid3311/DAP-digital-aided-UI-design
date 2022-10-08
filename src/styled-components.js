@@ -144,6 +144,9 @@ color:black;
 `;
 
 
+
+///All Button
+
 export const WhiteButton = styled.button`
 padding:10px 25px;
 background-color:#ffffff;
@@ -155,7 +158,6 @@ cursor:pointer;
 & svg{
     font-size:20px;
     padding:5px 0px;
-    
 }
 
 `;
@@ -164,26 +166,29 @@ export const BlueButton = styled(WhiteButton)`
 background-color:#3742FA;
 color: #FEFEFF;
 
-}
 `;
 
 export const BlueBorderLessBtn = styled(BlueButton)`
 border:none;
 
 & svg{
-    font-size:35px;
-    padding:5px;
-    
+    font-size:24px;
+    padding:4px;
 }
 `;
 
-export const WhiteBorderLessBtn = styled(WhiteButton)`
+/* export const WhiteBorderLessBtn = styled(WhiteButton)`
 border:none;
 background-color:#F9F9F9;
+`; */
+
+export const WhiteBorderLessBtn = styled(WhiteButton)`
+border:none;
+background-color:#FEFEFF;
 `;
 export const WhiteBorderLessFlowBtn = styled(WhiteBorderLessBtn)`
 background-color:#FEFEFF;
-padding:3px 10px;
+padding:2px 10px;
 
 &> svg{
     font-size:35px;

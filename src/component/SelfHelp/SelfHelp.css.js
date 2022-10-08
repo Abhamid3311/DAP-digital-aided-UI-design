@@ -7,7 +7,7 @@ width: 494px;
 display: flex;
 flex-direction: column;
 align-items: center;
-gap: 15px;
+gap: 10px;
 background-color:white;
 border-radius:8px;
 padding:10px 10px;

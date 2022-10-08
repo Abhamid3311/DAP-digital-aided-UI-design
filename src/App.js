@@ -20,7 +20,7 @@ function App() {
   return (
     <div style={{ backgroundColor: "gray", padding: "20px" }}>
 
-      {/* <ToolTipCreated1 />
+      <ToolTipCreated1 />
       <ToolTipCreated2 />
       <ToolTipCreated3 />
       <ToolTipCreated4 />
@@ -28,7 +28,7 @@ function App() {
       <ToolTipView1 />
       <ToolTipView2 />
       <ToolTipView3 />
-      <ToolTipView4 /> */}
+      <ToolTipView4 />
 
       {/* <ExistigFlows /> */}
       
