@@ -6,7 +6,7 @@ const CreateFlow = () => {
     return (
         <div style={{ marginTop: "50px" }}>
             <FormCard>
-                <div>
+                <div className={"logo"}>
                     <img src={logo} style={{width:"60px",height:"52px"}} alt="" />
                     <h2>Dijitization</h2>
                 </div>

@@ -7,8 +7,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align:center;
-padding: 50px 50px;
-gap: 10px;
+padding: 70px 40px;
+gap: 20px;
 width: 420px;
 background: #FEFEFF;
 color: #2B2E4A;
@@ -22,12 +22,24 @@ border-radius: 16px;
     align-items: center;
     width: 420px;
     gap:10px;
-    margin:30px auto;
+    margin:20px auto;
 }
 & .divider>div{
     height:1px;
     width:20%;
     background-color:#2B2E4A;
+}
+& .logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:50px;
+}
+& p>.login-link{
+    text-decoration:none;
+    color: #3742FA;
+    font-size: 16px;
 }
 `;
 
@@ -52,6 +64,7 @@ gap: 20px;
     justify-content: space-between;
     align-items: center;
     gap:10px;
+    margin-top:20px;
 }
 `;
 
