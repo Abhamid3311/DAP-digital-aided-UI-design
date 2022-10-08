@@ -163,15 +163,31 @@ cursor:pointer;
 export const BlueButton = styled(WhiteButton)`
 background-color:#3742FA;
 color: #FEFEFF;
+
+}
 `;
 
 export const BlueBorderLessBtn = styled(BlueButton)`
 border:none;
+
+& svg{
+    font-size:35px;
+    padding:5px;
+    
+}
 `;
 
 export const WhiteBorderLessBtn = styled(WhiteButton)`
 border:none;
-background-color:#F9F9F9;;
+background-color:#F9F9F9;
+`;
+export const WhiteBorderLessFlowBtn = styled(WhiteBorderLessBtn)`
+background-color:#FEFEFF;
+padding:3px 10px;
+
+&> svg{
+    font-size:35px;
+}
 `;
 
 export const WhiteEditBtn = styled(WhiteButton)`

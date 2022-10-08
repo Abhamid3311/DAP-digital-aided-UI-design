@@ -2,6 +2,7 @@ import React from 'react';
 import { BsX } from 'react-icons/bs';
 import { RiErrorWarningLine } from 'react-icons/ri';
 import { BlueButton, BlueEditBtn, TooltipSearch, WhiteEditBtn } from '../../styled-components';
+import { SearchBarBtn } from '../FlowManager/FlowManager.css';
 import { FlowbarWarning, EditorBar, FlowEditorCard } from './FlowEditor.css';
 
 
@@ -12,7 +13,7 @@ const FlowEditor = () => {
 
                 <TooltipSearch>
                     <h2>Existing Flows</h2>
-                    <BlueButton><BsX /></BlueButton>
+                    <SearchBarBtn><BsX /></SearchBarBtn>
                 </TooltipSearch>
 
                 <EditorBar>

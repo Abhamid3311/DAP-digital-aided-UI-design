@@ -19,7 +19,8 @@ import ToolTipView3 from './component/ToolTipView/ToolTipView3';
 function App() {
   return (
     <div style={{ backgroundColor: "gray", padding: "20px" }}>
-      <ToolTipCreated1 />
+
+      {/* <ToolTipCreated1 />
       <ToolTipCreated2 />
       <ToolTipCreated3 />
       <ToolTipCreated4 />
@@ -27,18 +28,21 @@ function App() {
       <ToolTipView1 />
       <ToolTipView2 />
       <ToolTipView3 />
-      <ToolTipView4 />
+      <ToolTipView4 /> */}
 
-      <ExistigFlows />
-      <Announcements />
+      {/* <ExistigFlows /> */}
+      
       <FlowEditor />
+
       <SelfHelp />
+
       <ModalWindow1 />
       <ModalWindow4 />
 
-
       <Feedback1 />
       <Feedback2 />
+
+      <Announcements />
 
 
 

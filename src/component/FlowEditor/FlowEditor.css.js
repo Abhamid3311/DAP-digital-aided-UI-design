@@ -4,8 +4,8 @@ import { FlowBar } from "../FlowManager/FlowManager.css";
 export const FlowEditorCard = styled.div`
 display: flex;
 flex-direction: column;
-padding: 24px;
-gap: 20px;
+padding: 20px;
+gap: 15px;
 width: 347px;
 height: 618px;
 background: #F9F9F9;
@@ -31,6 +31,7 @@ border-radius: 8px;
     padding:10px;
     border-radius:8px;
     width:100px;
+    margin-bottom:10px;
 }
 
 &>.check-box>input{
@@ -46,10 +47,11 @@ width:299px;
 export const FlowbarWarning = styled(EditorBar)`
 height:84px;
 justify-content:space-between;
+margin-bottom:20px;
 
 & svg{
-    font-size:40px;
-    margin-right:10px;
+    font-size:50px;
+    margin-right:18px;
 }
 
 &>p{
