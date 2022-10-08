@@ -16,10 +16,12 @@ import ToolTipCreated2 from './component/ToolTipCreated/ToolTipCreated2';
 import ToolTipCreated3 from './component/ToolTipCreated/ToolTipCreated3';
 import ToolTipView3 from './component/ToolTipView/ToolTipView3';
 import SignUp from './component/SignUp/SignUp';
+import CreateFlow from './component/SignUp/CreateFlow';
+import Popup from './component/Popup/Popup';
 
 function App() {
   return (
-    <div style={{ backgroundColor: "gray", padding: "20px" }}>
+    <div style={{ backgroundColor: "gray", padding: "20px", height: "100vh" }}>
 
       {/* <ToolTipCreated1 />
       <ToolTipCreated2 />
@@ -40,7 +42,10 @@ function App() {
       <Feedback2 />
       <Announcements /> */}
 
-      <SignUp />
+      {/* <SignUp />
+      <CreateFlow /> */}
+
+      <Popup />
 
 
 

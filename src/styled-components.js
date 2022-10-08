@@ -183,6 +183,7 @@ border:none;
 
 export const WhiteBorderLessBtn = styled(WhiteButton)`
 border:none;
+font-weight:700;
 background-color:#F9F9F9;
 
 & span{
