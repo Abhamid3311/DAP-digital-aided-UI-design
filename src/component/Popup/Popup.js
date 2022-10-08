@@ -34,7 +34,7 @@ border-radius: 10px;
 
 const Popup = () => {
     return (
-        <div>
+        <div style={{ marginTop: "50px" }}>
             <PopupCard>
                 <div className='popup-msg'>
                     <AiOutlineWarning />

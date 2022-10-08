@@ -21,12 +21,17 @@ import Popup from './component/Popup/Popup';
 
 function App() {
   return (
-    <div style={{ backgroundColor: "gray", padding: "20px", height: "100vh" }}>
+    <div style={{ backgroundColor: "gray", padding: "20px" }}>
 
-      {/* <ToolTipCreated1 />
+      <SignUp />
+      <CreateFlow />
+      <Popup />
+
+      <ToolTipCreated1 />
       <ToolTipCreated2 />
       <ToolTipCreated3 />
       <ToolTipCreated4 />
+
       <ToolTipView1 />
       <ToolTipView2 />
       <ToolTipView3 />
@@ -34,18 +39,17 @@ function App() {
 
       <ExistigFlows />
       <FlowEditor />
-      <SelfHelp /> */}
+      <SelfHelp />
 
-      {/* <ModalWindow1 />
+      <ModalWindow1 />
       <ModalWindow4 />
+
       <Feedback1 />
       <Feedback2 />
-      <Announcements /> */}
 
-      {/* <SignUp />
-      <CreateFlow /> */}
+      <Announcements />
 
-      <Popup />
+
 
 
 
